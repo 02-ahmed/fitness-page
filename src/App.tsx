@@ -66,6 +66,9 @@ const App = () => {
             </div>
           </div>
         </section>
+        <footer className='fixed-bottom'>
+          <p className=' text-center mb-0 text-secondary' style={{fontSize:"10px"}}>Image by <a href="https://www.freepik.com/free-photo/top-view-circular-sport-frame_7941447.htm#query=fitness%20background&position=2&from_view=keyword&track=ais_user&uuid=af8caeb5-709d-46e7-89ec-2ae994c9e659" className='text-secondary'>Freepik</a></p>
+        </footer>
       </div>
     </>
   )
