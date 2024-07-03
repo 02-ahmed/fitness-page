@@ -3,6 +3,8 @@
 import { GoArrowUpRight } from "react-icons/go"; */
 
 import './App.css';
+import users from '../images/users.png';
+import logo from '../images/logo.png'
 
 const App = () => {
   return (
@@ -10,7 +12,7 @@ const App = () => {
       <div className="app container-fluid">
         <nav className='navbar navbar-expand-md bg-body-none'>
           <div className="container-fluid">
-            <a href="#" className="navbar-brand"><img src="/images/istockphoto-910293318-612x612-removebg-preview.png" alt="" height={70} width={80} /></a>
+            <a href="#" className="navbar-brand"><img src={logo} alt="" height={70} width={80} /></a>
             <button className='navbar-toggler bg-light' type='button' data-bs-toggle="collapse" data-bs-target="#navbarToggler">
               <span className='navbar-toggler-icon bg-light'></span>
             </button>
@@ -52,7 +54,7 @@ const App = () => {
                   <div className="col-auto pe-md-0">
                     <div className="col-6 d-flex flex-column align-items-center justify-content-between ">
                       <h3 className='fw-bold'>2.4k  </h3>
-                      <img src="/images/users-removebg-preview.png" width={80} className='' />
+                      <img src={users} width={80} className='' />
                     </div>
                   </div>
                   <div className="col-auto ps-md-0">
